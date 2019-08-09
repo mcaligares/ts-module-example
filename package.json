@@ -1,0 +1,33 @@
+{
+  "name": "ts-module-example",
+  "version": "1.0.0",
+  "description": "Module example using typescript",
+  "main": "dist",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcaligares/ts-module-example.git"
+  },
+  "keywords": [
+    "typescript",
+    "module",
+    "package",
+    "example"
+  ],
+  "author": "mcaligares@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcaligares/ts-module-example/issues"
+  },
+  "homepage": "https://github.com/mcaligares/ts-module-example#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {}
+}
