@@ -2,7 +2,7 @@
   "name": "ts-module-example",
   "version": "1.0.0",
   "description": "Module example using typescript",
-  "main": "dist",
+  "main": "dist/src",
   "scripts": {
     "build": "rm -rf ./dist && tsc",
     "test": "jest"
